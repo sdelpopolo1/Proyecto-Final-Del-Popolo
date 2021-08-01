@@ -1,0 +1,40 @@
+.navbar-light {
+	.navbar-brand {
+		color: #B4846C;
+	}
+}
+.header {
+	position: sticky;
+	top: 0;
+	background-color: white;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	z-index: 999;
+}
+.header__logo {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 40px;
+	color: #B4846C;
+	margin-left: 20px;
+}
+.header__menu {
+	font-family: 'Playfair Display', serif;
+	font-size: larger;
+	color: black;
+	background-color: white;
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		li {
+			margin: 0 15px;
+			a {
+				text-decoration: none;
+				color: black;
+				&:hover {
+					color: #B4846C !important;
+					font-weight: bolder;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
+	padding: 10px;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 999;
+}
+.footer__texto {
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Playfair Display', serif;
+	color: black;
+	ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		li {
+			margin: 0 15px;
+			a {
+				text-decoration: none;
+				color: black;
+				&:hover {
+					color: #B4846C;
+					font-weight: bolder;
+				}
+			}
+		}
+	}
+}

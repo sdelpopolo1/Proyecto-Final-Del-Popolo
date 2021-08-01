@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD|Contacto</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body>
+
+   <!-- Menu Navegable -->
+   <header>
+   <nav class="navbar navbar-expand-lg navbar-light">
+    <h1 class="navbar-brand header__logo">Thunder Denim</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class=" header__menu collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="ediciones.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ediciones
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">VOL I</a>
+            <a class="dropdown-item" href="#">Tienda</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="pedidos.html">¿Como Comprar?</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    
+    </div>
+  </nav>
+</header>
+
+
+   <main>
+    <div class=imag_form>
+        <form action="" method="" enctype="text/plain" class="contacto">
+
+        <fieldset> 
+            <legend class="contacto__titulo">CONTÁCTANOS</legend>
+
+            <!-- Input nombre y correo electrónico -->
+            <label for="name">Nombre:</label>
+            <input id="name" type="text" name="name" required> <br><br>
+        
+
+            <label for="email">E-mail:</label>
+            <input id="name" type="text" name="name" required> <br><br>
+
+            <!-- Area de texto para escribir mensaje/comentario -->
+            <textarea  id="mensaje" name="mensaje" cols="30" rows="10" required></textarea> <br><br>
+
+            <!-- Menu desplegable -->
+            <label for="paises">Seleccione país de envio:</label>
+            <select name="paises" id="paises">
+                <option value="ARG" selected>Argentina</option>
+                <option value="CHI">Chile</option>
+                <option value="URU">Uruguay</option>
+            </select> <br><br>
+
+            <!-- Checkbox -->
+            <label for="check">¿Desea recibir nuestro newsletter?</label>
+            <input id="check" type="checkbox" name="acepta" value="1"> <br><br>
+
+            <!-- Botones -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+        </fieldset>
+        
+        </form>
+    </div>
+  </main>  
+
+  <footer class="footer">
+      <nav class="footer__texto">
+         <ul class="d-flex pt-2 redes ml-auto ml-sm-0">
+             <li><a href="contacto.html">Contácto</a></li>
+             <li>
+               <a href="https://www.instagram.com/thunder.denim/?utm_medium=copy_link" target="_blank">
+                 <i class="fa fa-instagram fa-lg"></i>
+               </a>
+             </li>
+             <li>
+               <a href="#">
+                 <i class="fa fa-whatsapp fa-lg"></i>
+               </a>
+             </li>
+         </ul>
+     </nav>
+ </footer>
+
+</body>
+</html>

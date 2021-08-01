@@ -1,0 +1,435 @@
+.navbar-light .navbar-brand {
+  color: #B4846C;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.header__logo {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 40px;
+  color: #B4846C;
+  margin-left: 20px;
+}
+
+.header__menu {
+  font-family: 'Playfair Display', serif;
+  font-size: larger;
+  color: black;
+  background-color: white;
+}
+
+.header__menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header__menu ul li {
+  margin: 0 15px;
+}
+
+.header__menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header__menu ul li a:hover {
+  color: #B4846C !important;
+  font-weight: bolder;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 90px;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+.footer__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
+
+.footer__texto ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__texto ul li {
+  margin: 0 15px;
+}
+
+.footer__texto ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer__texto ul li a:hover {
+  color: #B4846C;
+  font-weight: bolder;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.intro__texto {
+  font-family: 'Playfair Display', serif;
+  color: black;
+  padding-top: 100px;
+}
+
+.intro__texto a {
+  text-decoration: none;
+  color: black;
+}
+
+.intro__texto a:hover {
+  color: #B4846C;
+}
+
+.intro__fotos {
+  padding: 5px;
+}
+
+.intro__fotos img {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.intro__fotos img:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  padding-top: 5px;
+  height: 170px;
+  margin-left: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.flip-box:hover .flip-box-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.flip-box-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: white;
+  color: black;
+}
+
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: white;
+  color: black;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.imag_form {
+  background-image: url(../img/imag_form.jpeg);
+  height: 800px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contacto {
+  font-family: 'Playfair Display', serif;
+  color: black;
+  background-color: white;
+  width: 600px;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  width: 400px;
+  padding: 16px;
+}
+
+fieldset {
+  border: 0;
+}
+
+.contacto__titulo {
+  font-size: large;
+  font-weight: bolder;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+textarea {
+  width: 40%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+select {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #B4846C;
+}
+
+input[type=reset] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+input[type=reset]:hover {
+  background-color: #B4846C;
+}
+
+.container {
+  margin-left: 60px;
+}
+
+.card {
+  font-family: 'Playfair Display', serif;
+}
+
+.orientacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-img-overlay {
+  color: black;
+  height: 250px;
+  font-family: 'Playfair Display', serif;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card-img-overlay a {
+  color: #B4846C;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.titulo_nosotros {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 40px;
+  color: #B4846C;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 5px;
+}
+
+.tarjeta {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 85%;
+}
+
+.caja {
+  padding: 0 15px;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+
+.caja::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.prod {
+  font-family: 'Playfair Display', serif;
+  color: #B4846C;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.tienda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Playfair Display', serif;
+}
+
+.tienda img {
+  padding: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 80%;
+    display: block;
+    margin-left: 100px;
+  }
+  .card-img-overlay2 {
+    height: 200px;
+  }
+}
+
+.titulo_ediciones {
+  color: #B4846C;
+  padding: 10px;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.texto_ediciones {
+  padding-left: 15px;
+}
+
+.card-img-overlay2 {
+  height: 130px;
+  font-family: 'Playfair Display', serif;
+  background-color: white;
+}
+
+.galeria {
+  padding: 10px;
+}
+
+.galeria img:hover {
+  opacity: 0.5;
+}
+
+.pedidos {
+  position: relative;
+  margin: 0 auto;
+}
+
+.pedidos__texto {
+  position: absolute;
+  top: 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+}
+
+.pedidos__texto a {
+  color: #B4846C;
+  font-style: italic;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

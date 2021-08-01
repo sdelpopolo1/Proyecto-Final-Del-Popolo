@@ -1,0 +1,20 @@
+.pedidos {
+	position: relative;
+	margin: 0 auto;
+}
+.pedidos__texto {
+	position: absolute;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+	font-family: 'Playfair Display', serif;
+	line-height: 1.5;
+	a {
+		color: #B4846C;
+		font-style: italic;
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,23 @@
+.prod {
+	font-family: 'Playfair Display', serif;
+	color: #B4846C;
+	font-weight: bolder;
+	font-size: 40px;
+}
+.tienda {
+	display: flex;
+	font-family: 'Playfair Display', serif;
+	img {
+		padding: 10px;
+	}
+}
+@media screen and (max-width: 650px) {
+	.column {
+		width: 80%;
+		display: block;
+		margin-left: 100px;
+	}
+	.card-img-overlay2 {
+		height: 200px;
+	}
+}

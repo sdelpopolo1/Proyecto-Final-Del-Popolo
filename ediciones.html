@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD|Productos</title>
+    
+     <!-- Bootstrap CDN -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+      <!-- Menu Navegable -->
+      <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <h1 class="navbar-brand header__logo">Thunder Denim</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class=" header__menu collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="ediciones.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ediciones
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">VOL I</a>
+                <a class="dropdown-item" href="#">Tienda</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pedidos.html">¿Como Comprar?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        
+        </div>
+      </nav>
+    </header>
+
+<!-- Sección Principal -->
+<main>
+
+  <div class="container-fluid">
+    <div class="card">
+        <div class="card-img-overlay2">
+            <h2 class="titulo_ediciones">VOL I - BE BOLD</h2>
+            <p class="texto_ediciones">¡Conocé nuestra temporada actual! <br> Agrega tus modelos preferidos al carrito de compras o consultános sobre disponibilidad y pedidos mayoristas llenando nuestro formulario de contacto.</p>
+        </div>
+
+  <!-- Galeria -->
+    <div class="row galeria">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img
+          src="img/galeria1.jpeg"
+          class=" w-100 shadow-1-strong rounded mb-4"
+          alt="galeria1"
+        />
+
+        <img
+        src="img/galeria6.jpeg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="galeria2"
+        />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+          src="img/galeria3.jpeg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="galeria3"
+        />
+
+        <img
+          src="img/galeria2.jpeg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="galeria4"
+        />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+          src="img/galeria4.jpeg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="galeria5"
+        />
+
+        <img
+          src="img/galeria5.jpeg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="galeria6"
+        />
+      </div>
+    </div>
+  </div>
+
+<!-- Tienda -->
+<h1 class="row">
+  <div class="col-12 text-center my-4 prod" name="tienda">PRODUCTOS</div>
+</h1>
+
+<section class="container-fluid tienda">           
+      <article>               
+          <img src="img/campera_free.jpeg" alt="campera" class="img-fluid">
+          <div class="texto_tienda">
+          <p>Modelo Born to be Free</p>                                   
+          <select name="talle" >
+              <option selected disabled>Talle</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+          </select>
+          <p>AR$4500</p>
+          <button>AGREGAR<i class="fa fa-cart-plus"></i></button>    
+        </div>           
+      </article>
+      <article>                
+          <img src="img/imag_pedidos.jpeg" alt="campera2" class="img-fluid">
+          <p>Modelo Black Mamba</p>
+          <select name="talle">
+              <option selected disabled>Talle</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+          </select>
+          <p>AR$4000</p>
+          <button>AGREGAR<i class="fa fa-cart-plus"></i></button>
+      </article>
+      <article>               
+          <img src="img/paris.jpeg" alt="campera3" class="img-fluid">
+          <p>Modelo Paris</p>
+          <select name="talle">
+              <option selected disabled>Talle</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+          </select>
+          <p >AR$5000</p>
+          <button>AGREGAR<i class="fa fa-cart-plus"></i></button>
+      </article> 
+     
+       
+
+</section>
+
+<section class="container-fluid tienda">           
+  <article>               
+      <img src="img/rockstar.jpeg" alt="campera4" class="img-fluid">
+      <p >Modelo Rockstar</p>                                   
+      <select name="talle" id="talle">
+          <option selected disabled>Talle</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+      </select>
+      <p>AR$5000</p>
+      <button >AGREGAR<i class="fa fa-cart-plus"></i></button>               
+  </article>
+  <article>                
+      <img src="img/selfmade.jpeg" alt="campera5" class="img-fluid">
+      <p>Modelo Self Made</p>
+      <select name="talle">
+          <option selected disabled>Talle</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+      </select>
+      <p>AR$4500</p>
+      <button >AGREGAR<i class="fa fa-cart-plus"></i></button>
+  </article>
+  <article>                
+      <img src="img/chains.jpeg" alt="campera6" class="img-fluid">
+      <p>Modelo Chains</p>
+      <select name="talle" >
+          <option selected disabled>Talle</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+      </select>
+      <p>AR$5000</p>
+      <button>AGREGAR<i class="fa fa-cart-plus"></i></button>
+  </article>
+
+
+</section>
+<section class="container-fluid tienda">           
+  <article>               
+      <img src="img/arizona.jpeg" alt="campera7" class="img-fluid">
+      <p class="descripcion">Modelo Arizona</p>                                   
+      <select name="talle">
+          <option selected disabled>Talle</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+      </select>
+      <p>AR$5000</p>
+      <button>AGREGAR<i class="fa fa-cart-plus"></i></button>               
+  </article>
+  <article>                
+      <img src="img/babyblue.jpeg" alt="campera8" class="img-fluid">
+      <p>Modelo Baby Blue</p>
+      <select name="talle" >
+          <option selected disabled>Talle</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+      </select>
+      <p>AR$4500</p>
+      <button>AGREGAR<i class="fa fa-cart-plus"></i></button>
+  </article>
+  <article>                
+      <img src="img/stardust.jpeg" alt="campera9" class="img-fluid">
+      <p>Modelo Stardust</p>
+      <select name="talle">
+          <option selected disabled>Talle</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+      </select>
+      <p >AR$5000</p>
+      <button class="boton">AGREGAR<i class="fa fa-cart-plus"></i></button>
+  </article>
+
+
+</section>
+
+
+</main>
+
+
+<footer class="footer">
+  <nav class="footer__texto">
+     <ul class="d-flex pt-2 redes ml-auto ml-sm-0">
+         <li><a href="contacto.html">Contácto</a></li>
+         <li>
+           <a href="https://www.instagram.com/thunder.denim/?utm_medium=copy_link" target="_blank">
+             <i class="fa fa-instagram fa-lg"></i>
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <i class="fa fa-whatsapp fa-lg"></i>
+           </a>
+         </li>
+     </ul>
+ </nav>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>

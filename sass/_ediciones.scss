@@ -1,0 +1,21 @@
+.titulo_ediciones {
+	color: #B4846C;
+	padding: 10px;
+	font-family: 'Playfair Display SC', serif;
+}
+.texto_ediciones {
+	padding-left: 15px;
+}
+.card-img-overlay2 {
+	height: 130px;
+	font-family: 'Playfair Display', serif;
+	background-color: white;
+}
+.galeria {
+	padding: 10px;
+	img {
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+}
